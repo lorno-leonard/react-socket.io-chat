@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      endpoint: 'http://localhost:3001',
+      endpoint: process.env.ENDPOINT || 'http://localhost:3001',
       message: '',
       messageList: []
     };
