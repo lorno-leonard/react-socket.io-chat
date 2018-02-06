@@ -6,7 +6,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      endpoint: process.env.ENDPOINT || 'http://localhost:3001',
+      // endpoint: 'http://localhost:3001', // Use in dev
+      endpoint: 'https://online-lorno-chat.herokuapp.com/', // Use in production
       message: '',
       messageList: []
     };
