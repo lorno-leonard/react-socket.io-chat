@@ -1,2 +1,2 @@
 # chat
-Chat app using Express, MongoDB and React
+Chat app using Express, React and Socket.IO

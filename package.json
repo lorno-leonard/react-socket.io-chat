@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "Chat app using Express, React and Socket.IO",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/online-lorno/chat.git"
+  },
+  "keywords": [
+    "chat",
+    "express",
+    "react",
+    "socket.io"
+  ],
+  "author": "Leonard Laput",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/online-lorno/chat/issues"
+  },
+  "homepage": "https://github.com/online-lorno/chat#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
