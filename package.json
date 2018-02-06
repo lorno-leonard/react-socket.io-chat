@@ -2,6 +2,7 @@
   "name": "chat",
   "version": "0.0.1",
   "description": "Chat app using Express, React and Socket.IO",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
